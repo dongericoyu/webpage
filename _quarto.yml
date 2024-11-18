@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _doc #this will determine where your rendered pages (in this example, Project1 and 2) are stored. 
+  output-dir: docs #this will determine where your rendered pages (in this example, Project1 and 2) are stored. 
   
 website:
   title: "DACSS-604_Fall24:Demo"
