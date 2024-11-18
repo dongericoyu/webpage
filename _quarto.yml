@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _doc
+  output-dir: _doc #this will determine where your rendered pages (in this example, Project1 and 2) are stored. 
   
 website:
   title: "DACSS-604_Fall24:Demo"
@@ -25,7 +25,6 @@ format:
 
 editor: source
 
-#remember to inlude the following lines to correctly open a PDF file in the web browser:
+#remember to inlude the following lines to include all files in the `files/` folder that you want to link to.
 resources: 
-  - "ChangeToTheNameOfTheFile.pdf" 
   - "files/**"

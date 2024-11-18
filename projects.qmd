@@ -4,12 +4,19 @@ title: "Projects"
 
 Below I am going to demonstrate how to link to the project html files.
 
-## Project 1
+## Syllabus (PDF file)
 
-[Project 1](Project1/challenge_4_Fall23_solutions.html)
+<a href="files/ChangeToTheNameOfTheFile.pdf" target="_blank">Open Syllabus</a>
+
+## Solutions (A standalone .html file)
+
+<a href="files/challenge_5_Fall23_solutions.html" target="_blank">Open the Standalone Page</a>
+
+## A Project with live map and animation;
+
+[Project 1](Project1/starbucks.html)
 
 
-## Syllabus
-<a href="ChangeToTheNameOfTheFile.pdf" target="_blank">Open Syllabus</a>
+## A Project with data and .qmd file
 
-## Project 3
+[Project 2](Project2/challenge_4_Fall23_solutions.html)
