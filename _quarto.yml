@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: _doc
   
 website:
   title: "DACSS-604_Fall24:Demo"
@@ -25,3 +25,7 @@ format:
 
 editor: source
 
+#remember to inlude the following lines to correctly open a PDF file in the web browser:
+resources: 
+  - "ChangeToTheNameOfTheFile.pdf" 
+  - "files/**"
