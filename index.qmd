@@ -3,17 +3,29 @@ title: "About Me"
 about:
   id: me
   template: broadside
-  image: img/profile.png
+  image: img/profile_Fall22.jpg
 ---
 
-:::{#me}
-
+::: {#me}
 ## Goals
+
+Teach the class to host webpage and projects using GitHub.
 
 ## Education
 
+UIowa
+
+UPitt
+
+Sun Yat-sen U
+
 ## Experience
 
+DACSS UMass
+
+Poli Sci, Grinnell College
+
+Carter Center
 :::
 
 Thanks for checking out my web site!

@@ -2,7 +2,12 @@
 title: "Projects"
 ---
 
+Below I am going to demonstrate how to link to the project html files.
+
 ## Project 1
+
+[Project 1](Project1/challenge_4_Fall23_solutions.html)
+
 
 ## Project 2
 
