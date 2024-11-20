@@ -145,5 +145,26 @@
     "title": "Challenge_4: Intro to Visulization: Univariate and Multivariate Graphs",
     "section": "Appendix: sources for data to be used in Part 3",
     "text": "Appendix: sources for data to be used in Part 3\nHere are some online sources and popular Online Dataset Hub:\n\nMany US governments (usually at the federal and state levels),  bureaus, and departments have open data archives on their websites, allowing the public to access, download, and use them. Just use Google to search for them.\n\n\n\nThe Harvard Dataverse Repository is a free data repository open to all researchers from any discipline, inside and outside the Harvard community, where you can share, archive, cite, access, and explore research data. Each individual Dataverse collection is a customizable collection of datasets (or a virtual repository) for organizing, managing, and showcasing datasets.\n\n\n\nInter-university Consortium for Political and Social Research (ICPSR) of the University of Michigan-Ann Arbor provides leadership and training in data access, curation, and methods of analysis for the social science research community. \n\n\n\nUN: https://data.un.org/\n\n\n\nOECD Data:  economic and development data of the most developed countries in the world.\n\n\n\nThe upper five sources are mainly for social science data; there is another very big community and open data archives for machine-learning and data science: Kaggle."
+  },
+  {
+    "objectID": "Input Sidebar.html",
+    "href": "Input Sidebar.html",
+    "title": "Sidebar",
+    "section": "",
+    "text": "title: “Sidebar” output: flexdashboard::flex_dashboard runtime: shiny"
+  },
+  {
+    "objectID": "Input Sidebar.html#inputs",
+    "href": "Input Sidebar.html#inputs",
+    "title": "Sidebar",
+    "section": "Inputs",
+    "text": "Inputs\n\n# shiny inputs defined here"
+  },
+  {
+    "objectID": "Input Sidebar.html#column",
+    "href": "Input Sidebar.html#column",
+    "title": "Sidebar",
+    "section": "Column",
+    "text": "Column\n\nChart 1\n\n\nChart 2"
   }
 ]
