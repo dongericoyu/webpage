@@ -24,3 +24,6 @@ Below I am going to demonstrate how to link to the project html files.
 ## A Dashboard Example
 
 [Starbucks Dashboard](multiple_pages.html)
+
+<a href="files/multiple_pages.html" target="_blank">Open Dashboard</a>
+
