@@ -60,7 +60,7 @@ subset locations data to MA
 starbucksMA <- starbucks  |>
   filter(State %in% c("MA"))
 
-write.csv(starbucksMA, "starbucksMA", row.names = FALSE)
+write.csv(starbucksMA, "starbucksMA.csv", row.names = FALSE)
 ```
 
 Convert the dataset into a spatial object (sf)

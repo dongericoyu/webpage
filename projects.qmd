@@ -20,3 +20,7 @@ Below I am going to demonstrate how to link to the project html files.
 ## A Project with data and .qmd file
 
 [Project 2](Project2/challenge_4_Fall23_solutions.html)
+
+## A Dashboard Example
+
+[Starbucks Dashboard](multiple_pages.html)
