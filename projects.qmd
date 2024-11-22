@@ -21,3 +21,5 @@ Below I am going to demonstrate how to link to the project html files.
 [Project 2](Project2/challenge_4_Fall23_solutions.html)
 
 
+## A Dashboard Example
+<a href="files/multiple_pages.html" target="_blank">Open Dashboard</a>
