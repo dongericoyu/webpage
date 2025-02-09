@@ -100,9 +100,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About Me",
+    "title": "Dong Yu (Erico)",
     "section": "",
-    "text": "Teach the class to host webpage and projects using GitHub.\n\n\n\nUIowa\nUPitt\nSun Yat-sen U\n\n\n\nDACSS UMass\nPoli Sci, Grinnell College\nCarter Center\nThanks for checking out my web site!"
+    "text": "Welcome to visit my website. I am a lecturer in Data Analytics and Computational Social Science Program(DACSS) at the University of Massachusetts Amherst. Trained as a political scientist, my research interests include court and judicial politics, comparative public opinion, and political participation with a specific focus in China and the US. You can find more information in my CV and Google Scholar) for my recent research and teaching.\n\n\n\nM.A. and Ph.D. in Political Science, the University of Iowa\nM.A. International Affairs, the University of Pittsburgh\nB.A. Law, Sun Yat-sen University\n\n\n\n\nBefore joining DACSS, I taught in the Department of Political Science at Grinnell College. I also served as a research intern at the Institute for Policy Studies in Washington, D.C., and The Carter Center in Atlanta. Additionally, I worked as an assistant in a law clinic at Sun Yat-sen University.\nBeyond academia, I contributed to a Podcast on American Politics and Elections and wrote for various media outlets and newspapers, including The New York Times, covering US presidential and midterm elections.\nThis website features my latest teaching materials in DACSS. I welcome comments or suggestions. If you have any questions, feel free to email me. Looking for my old website? You can still access it here."
   },
   {
     "objectID": "index.html#goals",
@@ -114,16 +114,16 @@
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "About Me",
+    "title": "Dong Yu (Erico)",
     "section": "",
-    "text": "UIowa\nUPitt\nSun Yat-sen U"
+    "text": "M.A. and Ph.D. in Political Science, the University of Iowa\nM.A. International Affairs, the University of Pittsburgh\nB.A. Law, Sun Yat-sen University"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "About Me",
+    "title": "Dong Yu (Erico)",
     "section": "",
-    "text": "DACSS UMass\nPoli Sci, Grinnell College\nCarter Center"
+    "text": "Before joining DACSS, I taught in the Department of Political Science at Grinnell College. I also served as a research intern at the Institute for Policy Studies in Washington, D.C., and The Carter Center in Atlanta. Additionally, I worked as an assistant in a law clinic at Sun Yat-sen University.\nBeyond academia, I contributed to a Podcast on American Politics and Elections and wrote for various media outlets and newspapers, including The New York Times, covering US presidential and midterm elections."
   },
   {
     "objectID": "flexboard.html",
@@ -184,9 +184,9 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects",
+    "title": "Teaching",
     "section": "",
-    "text": "Below I am going to demonstrate how to link to the project html files."
+    "text": "Below are syllabi and teaching materials for the recent courses I teach at UMass Amherst:"
   },
   {
     "objectID": "projects.html#syllabus-pdf-file",
@@ -222,5 +222,110 @@
     "title": "Projects",
     "section": "A Dashboard Example",
     "text": "A Dashboard Example\nOpen Dashboard"
+  },
+  {
+    "objectID": "projects.html#dacss-601-data-science-fundamentals",
+    "href": "projects.html#dacss-601-data-science-fundamentals",
+    "title": "Teaching",
+    "section": "DACSS-601: Data Science Fundamentals",
+    "text": "DACSS-601: Data Science Fundamentals\nThis course provides an essential introduction to R programming, designed for students with no prior programming or statistical experience. As a foundational tool in the DACSS program, R is widely used across core courses and technical electives. The course covers fundamental skills in data management, wrangling, and visualization, preparing students for advanced quantitative analysis. Beyond technical proficiency, it emphasizes data-driven storytelling, fostering technological and data literacy to enhance analytical thinking, argumentation, and communication. Students will learn to interpret data effectively and create compelling tables and figures to support their arguments.\n\nOpen Syllabus\nGoogle Colab Tutorials for R Basics and Data Analysis (Example)\nHomework Solutions(Example)"
+  },
+  {
+    "objectID": "projects.html#dacss-603-introduction-to-quantitative-analysis",
+    "href": "projects.html#dacss-603-introduction-to-quantitative-analysis",
+    "title": "Teaching",
+    "section": "DACSS-603: Introduction to Quantitative Analysis",
+    "text": "DACSS-603: Introduction to Quantitative Analysis\nThis course provides a rigorous introduction to quantitative empirical research methods, designed for doctoral students in the social sciences and master’s students in data analytics or computational social science. It covers probability, hypothesis testing, and regression analysis, with a strong focus on simple and multiple linear regression, as well as logistic regression and generalized linear models. The course also critically examines conventional statistical practices, addressing issues such as the replication crisis, p-values, and limitations of null hypothesis testing. Students will engage in simulations and data analysis using R, developing both technical proficiency and a deeper understanding of statistical methodologies.\n\nOpen Syllabus"
+  },
+  {
+    "objectID": "projects.html#dacss-604-advanced-data-driven-storytelling",
+    "href": "projects.html#dacss-604-advanced-data-driven-storytelling",
+    "title": "Teaching",
+    "section": "DACSS-604: Advanced Data-driven Storytelling",
+    "text": "DACSS-604: Advanced Data-driven Storytelling\nThis hands-on course provides students with the knowledge and skills needed to generate strong, data-driven communication. We will emphasize graphic and visualization theory and practices, clear interpretation of data patterns, quantitative analyses, and statistical inferences, using precise and accessible language appropriate for one’s audience.\n\nOpen Syllabus\nDashboard for Class Demo\nLive Map and Animated GIF for Class Demo"
+  },
+  {
+    "objectID": "projects.html#legal-393e-empirical-legal-studies",
+    "href": "projects.html#legal-393e-empirical-legal-studies",
+    "title": "Teaching",
+    "section": "Legal-393E: Empirical Legal Studies",
+    "text": "Legal-393E: Empirical Legal Studies\nFrom academic research on the impact of landmark court cases to the judge reading a brief loaded with social policy arguments, the study of law frequently involves empirical data. In this course, students will both learn how to digest empirical legal research and be equipped with the skills to conduct their own empirical research. Using readings and accompanying data from a variety of areas of legal studies research, the course covers topics including constructing empirical legal research questions, collecting and generating data appropriate for testing those questions, visualizing data, and conducting descriptive and inferential analyses. Students will leave the course with a firm understanding of the centrality of data in twenty-first-century law.\n\nOpen Syllabus\nQuiz Solutions and Additional Teaching Notes:\n\nTutorial 1: R Basics"
+  },
+  {
+    "objectID": "projects.html#other-teaching-materials-politics-of-china",
+    "href": "projects.html#other-teaching-materials-politics-of-china",
+    "title": "Teaching",
+    "section": "Other Teaching Materials: Politics of China",
+    "text": "Other Teaching Materials: Politics of China"
+  },
+  {
+    "objectID": "Legal393E_Notes/Lab1.html",
+    "href": "Legal393E_Notes/Lab1.html",
+    "title": "Legel 393E Spring 2025: Lab Meeting#1: Tutorial#1 Quiz Solutions & More on R Basics",
+    "section": "",
+    "text": "As I introduced in class, the RStudio interface has four panels/panes. You can enter the R codes you learn and get them running in two ways. First, you can directly type in the codes in the R console pane and hit “enter,” and the immediate output will display below.\nSecond, in the source/script pane, you can create a new script (.r) by selecting “File/New File/R Script.” You can enter your codes in this script file. Once you are done, you can select one or multiple lines and hit the “Run” button on the upper right of the pane. The codes you run, and the outputs will be displayed on the R console pane. If you plot graphs or figures, the output will appear in the “Plots” window on the Output pane at the bottom right.\nIn practice, we generally use the second way to work on codes and analyze data in R. This .r script file is like a notebook or .txt file (if you have some programming background before). It allows you to write and edit multiple lines of code, write short functions or programs, make notes for your codes, and save all these codes and notes in this .r script file. You can also share this .r script file with others or open one existing .r script file in your RStudio and run the codes. It is very convenient to manage a project with multiple parts of code (reading data, processing data, coding and recoding, summary statistics, running models and getting results, creating visualizations, etc.)."
+  },
+  {
+    "objectID": "Legal393E_Notes/Lab1.html#rstudio-layout-inputting-and-running-r-codes.",
+    "href": "Legal393E_Notes/Lab1.html#rstudio-layout-inputting-and-running-r-codes.",
+    "title": "Legel 393E Spring 2025: Lab Meeting#1: Tutorial#1 Quiz Solutions & More on R Basics",
+    "section": "",
+    "text": "As I introduced in class, the RStudio interface has four panels/panes. You can enter the R codes you learn and get them running in two ways. First, you can directly type in the codes in the R console pane and hit “enter,” and the immediate output will display below.\nSecond, in the source/script pane, you can create a new script (.r) by selecting “File/New File/R Script.” You can enter your codes in this script file. Once you are done, you can select one or multiple lines and hit the “Run” button on the upper right of the pane. The codes you run, and the outputs will be displayed on the R console pane. If you plot graphs or figures, the output will appear in the “Plots” window on the Output pane at the bottom right.\nIn practice, we generally use the second way to work on codes and analyze data in R. This .r script file is like a notebook or .txt file (if you have some programming background before). It allows you to write and edit multiple lines of code, write short functions or programs, make notes for your codes, and save all these codes and notes in this .r script file. You can also share this .r script file with others or open one existing .r script file in your RStudio and run the codes. It is very convenient to manage a project with multiple parts of code (reading data, processing data, coding and recoding, summary statistics, running models and getting results, creating visualizations, etc.)."
+  },
+  {
+    "objectID": "Legal393E_Notes/Lab1.html#tutorial1-quiz-answers",
+    "href": "Legal393E_Notes/Lab1.html#tutorial1-quiz-answers",
+    "title": "Legel 393E Spring 2025: Lab Meeting#1: Tutorial#1 Quiz Solutions & More on R Basics",
+    "section": "Tutorial#1 Quiz Answers",
+    "text": "Tutorial#1 Quiz Answers\nQuestion 1. How does R evaluate (21+19)/2 + 1 &gt; 20?\nAnswer: We can simply enter the inequation and see the output.\n\n (21+19)/2 + 1 &gt; 20\n\n[1] TRUE\n\n\nQuestion 2. Which of the following is the assignment operator?\nAnswer: &lt;-.\nQuestion 3. What is the highest grade (as a percentage) in new_grades?\nAnswer: This question is based on the materials in the “Vectors” section of Tutorial#1. The vector new_grades is generated as below.\nNote: You can use this operator, “#,” in tutorials and many R coding blocks. This operator tells R not to run the content after it and to move on to the next, so it is a way to provide line-by-line commentary without interrupting R’s ability to run the script.\n\n#The second quiz\nnew_scores &lt;- c(13,12,11,9,12,13,15,12,6,14)\nnew_scores\n\n [1] 13 12 11  9 12 13 15 12  6 14\n\n#Solution of Exercise 1\n\n#new_grades variable is calculated dividing the scores by 15\nnew_grades &lt;- new_scores/15\n#multiply new_grades by 100 for clean percentages\nnew_grades &lt;- new_grades*100\n\n#preview all the numbers of \"new_grades\"\nnew_grades\n\n [1]  86.66667  80.00000  73.33333  60.00000  80.00000  86.66667 100.00000\n [8]  80.00000  40.00000  93.33333\n\n\nHow can we extract the maximum from this vector or a string of 10 numbers? We can simply use a basic R function, max():\n\n#getting the maximum number \nmax(new_grades)\n\n[1] 100\n\n\nQuestion#4. What is the highest grade (as a percentage) in final_grades after weighting by adding 5 points to everyone’s grade?\nAnswer: we first need to take the average of the sum of grades of the two quizzes to get the final_grades.\n\n#getting the grades of the first quiz. This is the same codes shown in the first part of the \"Vector\" section of the tutorials.\n\n#The first quiz\nscores &lt;- c(14,13,12,15,16,14,15,10,8,12) #creating a vector of 10 students' grades of Quiz 1 by c(), and assign it as variable \"scores\".\n\n#Creating a second variable called \"grades\" by dividing the scores by 17\ngrades &lt;- scores/17\n\n#convert it to percentage\ngrades &lt;- grades *100\n\n#preview all the numbers of \"grades\"\ngrades\n\n [1] 82.35294 76.47059 70.58824 88.23529 94.11765 82.35294 88.23529 58.82353\n [9] 47.05882 70.58824\n\n#now we can create the variable, \"final_grades\", by averaging the sum of the two quizzes:\nfinal_grades &lt;- (grades+new_grades)/2\n\n#show final_grades to dobule-check\nfinal_grades\n\n [1] 84.50980 78.23529 71.96078 74.11765 87.05882 84.50980 94.11765 69.41176\n [9] 43.52941 81.96078\n\n\nFinally, we just need to weight all the final grades by adding 5 points.\n\n#weight the grades by 5 points\nweighted_grades &lt;- final_grades + 5\n\n#What is the highest grade? Again, use the max() function.\nmax(weighted_grades)\n\n[1] 99.11765\n\n\nSurely, when you are more familiar with coding in R, you can rewrite the above multiple lines of codes into one line (just like merging multiple steps of calculation) and make your codes more clean and concise. However, you may still want to do this step by step to make sure the result of each step is correct.\n\nmax((scores/17 + new_scores/15)*100/2+5)\n\n[1] 99.11765\n\n\nQuestion.5 In R, c(1,2,3,4) would create:\nAnswer: This one is simple. A vector. If you want to get the sum of these four numbers using the following mutliple ways:\n\n1+2+3+4\n\n[1] 10\n\n#or\nvector &lt;- c(1,2,3,4)\nsum(vector)\n\n[1] 10\n\n#or\nsum(1:4)\n\n[1] 10\n\n#or\nsum(1,2,3,4)\n\n[1] 10"
+  },
+  {
+    "objectID": "Legal393E_Notes/Lab1.html#additional-introduction-to-r-basic-operations",
+    "href": "Legal393E_Notes/Lab1.html#additional-introduction-to-r-basic-operations",
+    "title": "Legel 393E Spring 2025: Lab Meeting#1: Tutorial#1 Quiz Solutions & More on R Basics",
+    "section": "Additional Introduction to R Basic Operations",
+    "text": "Additional Introduction to R Basic Operations\nAlthough this is not an R coding course, I would suggest you do more research to learn R, including reading this suggested textbook. Besides providing your the tutorials and the lab days, i will also provide some additional notes on R coding practices.\nThis week, I want to introduce you to three things: working directory, packages, and functions. For each part, I attach the link of the readings for your to refer to.\n\nWorking Directory: Readings\n\nFirst, let’s start with some simple tasks to refresh the basics of R & RStudio. 1.Check your working directory (type your code below and run it)\n\n\ngetwd()\n\n[1] \"C:/Users/donge/OneDrive/Desktop/DACSS/604/Fall_2024/webpage-demo/Legal393E_Notes\"\n\n\n\nYou can use setwd() to change your working directory to any location in your device, such as desktop, for example. (for students using Posit Cloud, change the working directory to /cloud/)\n\nIf see a warning message, please refer to this answer on Piazza to see the solution.\n\n\nPackages; Installing & Loading Packages\nPackages in R Programming language are a set of R functions, compiled code, and sample data. These are stored under a directory called “library” within the R environment. By default, R installs a group of packages during installation. Once we start the R console, only the default packages are available by default. Other packages that are already installed need to be loaded explicitly to be utilized by the R program that’s getting to use them.\nR is an open-source programming language, which means that everyone can write their own packages.\nThere are two ways of installing packages. Let’s try the less intuitive way by using the function install.packages(). Say, if we want to install package “foreign,” how can you do it?\n\n#install.packages('foreign') #delete the previous \"#\" to run\n\npros: flexible; can install multiple packages per time; cons: less intuitive; you need to know the names of the packages you want to install.\nloading a package (always make sure do this first)\n\nlibrary(foreign)\n\nWarning: package 'foreign' was built under R version 4.4.2\n\n\nQuestion: is there a way that we can load multiple packages (tidyverse, ggplot2, foreign) at the same time?\n\nneeded.packages&lt;-c('tidyverse','ggplot2','haven')\nlapply(needed.packages, require, character.only = TRUE)\n\nLoading required package: tidyverse\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nLoading required package: haven\n\n\n[[1]]\n[1] TRUE\n\n[[2]]\n[1] TRUE\n\n[[3]]\n[1] TRUE\n\n\nWe can use this R base function: lapply(), which applies a function over a list or vector. In this case, we first assign a list of characters including all the packages’ names. Then we use lapply() to go over this list.\n\n#What if the package is not installed? \n# Install packages not yet installed\n#installed_packages &lt;- packages %in% rownames(installed.packages())\n#if (any(installed_packages == FALSE)) {\n#  install.packages(packages[!installed_packages])\n#}\n\n\n\nFunctions: Reading\nA function is a block of code that only runs when it is called. In R, many functions are already built-in and ready to call and run. Different functions are also included in other packages. When you install and load the packages, they are also ready to be used.\nIn the Tutorial#1 Quiz Answers above, I have shown you one of the default function in R. functions: max().\nLet’s try to do some practices with some built-in functions.\n\n#Creating a vector of 15 users' ratings of Iphone 15.\n\nrating_iphone15 &lt;- sample(1:10, 50, replace = T) # replace = T allow duplicated numbers\n\n\n#Creating a vector of the age of death of US presidents born before 1900.\n\nPrezAge_1900 &lt;- c(67, 90, 83, 85, 73, 80,\n                  78, 79, 68, 71, 53, 65,\n                  74, 64, NA, 56, 49, 57,\n                  71, 67, 71, 58, 60, 72,\n                  67, 57, 60, 90, 63, 88,\n                  78)\n\n\nPlease calculate the following basic stasitics of the above two vectors: mean, max, min, and median\n\n\nmean(rating_iphone15)\n\n[1] 5.36\n\nmin(rating_iphone15)\n\n[1] 1\n\nmax(rating_iphone15)\n\n[1] 10\n\nmedian(rating_iphone15)\n\n[1] 5\n\n\n\nmean(PrezAge_1900, na.rm = T) #na.rm is an argument in R, meaning that we want to remove the Non applicable data or or null data in the vector. So in this function, we tell R to calcualte the mean of this string of numbers while ignoring all the NAs.  \n\n[1] 69.8\n\nmin(PrezAge_1900, na.rm = T)\n\n[1] 49\n\nmax(PrezAge_1900, na.rm = T)\n\n[1] 90\n\nmedian(PrezAge_1900, na.rm = T)\n\n[1] 69.5\n\n\n\nIn base R, there is a built-in function we use a lot for all the above descriptive statistics: summary(). Try it with the above two vectors.\n\n\nsummary(PrezAge_1900)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's \n  49.00   60.75   69.50   69.80   78.00   90.00       1 \n\nsummary(rating_iphone15)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n   1.00    3.00    5.00    5.36    7.75   10.00 \n\n\nQuestion: what about the modes(the most frequent number in a sequence) of these vectors? Does mode() help us to get the number?\n\n#Note that R does not have a built-in function to calculate mode. Although we don't ususally show mode in data analysis, if we have to get the mode, we will need to write our own codes.\n\ngetmode&lt;-function(vector){\n  unique_value&lt;-unique(vector)# Find unique values in the input vector by removing all duplicated elements\n  counts &lt;-tabulate(match(vector, unique_value))  # Create a table of counts for each unique value in the vector\n  mode_index&lt;-which.max(counts) #which.max(): determine the location or index of the element (numeric) of the maximum value  \n  mode&lt;-unique_value[mode_index] #Return the unique value corresponding to the mode\n  return(mode)\n} \n\n#So in the above blocks of code, I actually writing my own function, using the function \"function()\". After I define the function, getmode(), I can just use it to get the modes of a string of numbers! For example:\n\n\nNext, try a few useful base functions with these two vectors: sort(), unique(), and table().\n\n\nsort(rating_iphone15) #this helps to sort the numbers (in ascending order by defaut)\n\n [1]  1  1  1  1  1  2  2  2  2  2  2  3  3  3  3  4  4  4  4  4  4  5  5  5  5\n[26]  5  6  6  6  6  6  6  6  6  7  7  7  8  8  9  9  9  9  9 10 10 10 10 10 10\n\nsort(rating_iphone15, decreasing = T)#and we can make it in a descending order\n\n [1] 10 10 10 10 10 10  9  9  9  9  9  8  8  7  7  7  6  6  6  6  6  6  6  6  5\n[26]  5  5  5  5  4  4  4  4  4  4  3  3  3  3  2  2  2  2  2  2  1  1  1  1  1\n\nunique(rating_iphone15) #unique returns a vector, data frame or array like x but with duplicate elements/rows removed.\n\n [1]  1  5  4  9 10  6  3  2  8  7\n\ntable(rating_iphone15)\n\nrating_iphone15\n 1  2  3  4  5  6  7  8  9 10 \n 5  6  4  6  5  8  3  2  5  6 \n\n\n\n\nData Structure and Object Types: You can read this part after doing Tutorial#2\n\n\nReading\n#Object Types 1. Please create the four different types of atomic vectors. Make sure they at least have four elements (length = 4). You can double-check their types by function typeof()\n\nlogical &lt;- c(TRUE, FALSE, FALSE)\n\ninteger&lt;-c(3, 10)\n\ndouble &lt;- c(1.5, 2.8, pi)\n\ncharacter &lt;- c(\"this\", \"is\", \"a character\", \"vector\")\n\nHmm, you may find the R classified the “integer vector” you created as “double”. This is because a number by default is considered double in R. So can we make this vector as integer? Two options:(1)adding “L” after each number you enter; and (2)coersion.\n\n#option 1:\nnew_integer&lt;-c(3L, 10L)\ntypeof(new_integer)\n\n[1] \"integer\"\n\n#option 2:\ncoercion_integer&lt;-as.integer(integer)\ntypeof(coercion_integer)\n\n[1] \"integer\"\n\n\n\nNow, try to extract the following things from each of the above vectors: (1) the first element; (2)the second to third element; (3) the last element\n\n\n#the first element\ndouble[1]\n\n[1] 1.5\n\n#the second to third element\ndouble[2:3]\n\n[1] 2.800000 3.141593\n\n#the last element\ntail(double, 1)\n\n[1] 3.141593\n\n\n\nLet’s create a list combing the above four atomic vectors.\n\n\nmy_list&lt;-list(integer, double, character, logical)\nmy_list\n\n[[1]]\n[1]  3 10\n\n[[2]]\n[1] 1.500000 2.800000 3.141593\n\n[[3]]\n[1] \"this\"        \"is\"          \"a character\" \"vector\"     \n\n[[4]]\n[1]  TRUE FALSE FALSE\n\n\n\nNext, create a simple n by n tibble of your own. You can use the previous vectors you created above.\n\n\nmy_tibble&lt;-tibble(logical, double)\nmy_tibble\n\n\n  \n\n\n\nAnd this is the very first dataframe we create!\n\n\nRBuilt-in Datasets: You can read this part after doing Tutorial#2\nR has many built-in datasets that you can call to browse and practice with. Let’s take a quick look.\n\nFirst, browse the list of the built-int dataset by this function: data()\n\n\ndata()\n\n\nNow, load the dataset “mpg”: data(dataset_name);\n\n\ndata(mpg)\n\n\nA very useful function to open a window to take a look at the dataset is View().\n\n\n#View(mpg)\n\n\nLet’s just browse the first a few entries of the dataset. Remember what function we can use?\n\n\nhead(mpg)\n\n\n  \n\n\n\n\nBy looking at the data and the headers, can you tell what this dataset is about? What is the basic data structure (numbers of row and columns)? What do each row and column mean?"
+  },
+  {
+    "objectID": "Teaching.html",
+    "href": "Teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Below are syllabi and teaching materials for the recent courses I teach at UMass Amherst:"
+  },
+  {
+    "objectID": "Teaching.html#dacss-601-data-science-fundamentals",
+    "href": "Teaching.html#dacss-601-data-science-fundamentals",
+    "title": "Teaching",
+    "section": "DACSS-601: Data Science Fundamentals",
+    "text": "DACSS-601: Data Science Fundamentals\nThis course provides an essential introduction to R programming, designed for students with no prior programming or statistical experience. As a foundational tool in the DACSS program, R is widely used across core courses and technical electives. The course covers fundamental skills in data management, wrangling, and visualization, preparing students for advanced quantitative analysis. Beyond technical proficiency, it emphasizes data-driven storytelling, fostering technological and data literacy to enhance analytical thinking, argumentation, and communication. Students will learn to interpret data effectively and create compelling tables and figures to support their arguments.\n\nOpen Syllabus\nGoogle Colab Tutorials for R Basics and Data Analysis (Example)"
+  },
+  {
+    "objectID": "Teaching.html#dacss-603-introduction-to-quantitative-analysis",
+    "href": "Teaching.html#dacss-603-introduction-to-quantitative-analysis",
+    "title": "Teaching",
+    "section": "DACSS-603: Introduction to Quantitative Analysis",
+    "text": "DACSS-603: Introduction to Quantitative Analysis\nThis course provides a rigorous introduction to quantitative empirical research methods, designed for doctoral students in the social sciences and master’s students in data analytics or computational social science. It covers probability, hypothesis testing, and regression analysis, with a strong focus on simple and multiple linear regression, as well as logistic regression and generalized linear models. The course also critically examines conventional statistical practices, addressing issues such as the replication crisis, p-values, and limitations of null hypothesis testing. Students will engage in simulations and data analysis using R, developing both technical proficiency and a deeper understanding of statistical methodologies.\n\nOpen Syllabus"
+  },
+  {
+    "objectID": "Teaching.html#dacss-604-advanced-data-driven-storytelling",
+    "href": "Teaching.html#dacss-604-advanced-data-driven-storytelling",
+    "title": "Teaching",
+    "section": "DACSS-604: Advanced Data-driven Storytelling",
+    "text": "DACSS-604: Advanced Data-driven Storytelling\nThis hands-on course provides students with the knowledge and skills needed to generate strong, data-driven communication. We will emphasize graphic and visualization theory and practices, clear interpretation of data patterns, quantitative analyses, and statistical inferences, using precise and accessible language appropriate for one’s audience.\n\nOpen Syllabus\nDashboard for Class Demo\nLive Map and Animated GIF for Class Demo"
+  },
+  {
+    "objectID": "Teaching.html#legal-393e-empirical-legal-studies",
+    "href": "Teaching.html#legal-393e-empirical-legal-studies",
+    "title": "Teaching",
+    "section": "Legal-393E: Empirical Legal Studies",
+    "text": "Legal-393E: Empirical Legal Studies\nFrom academic research on the impact of landmark court cases to the judge reading a brief loaded with social policy arguments, the study of law frequently involves empirical data. In this course, students will both learn how to digest empirical legal research and be equipped with the skills to conduct their own empirical research. Using readings and accompanying data from a variety of areas of legal studies research, the course covers topics including constructing empirical legal research questions, collecting and generating data appropriate for testing those questions, visualizing data, and conducting descriptive and inferential analyses. Students will leave the course with a firm understanding of the centrality of data in twenty-first-century law.\n\nOpen Syllabus\nQuiz Solutions and Additional Teaching Notes:\n\nTutorial 1: R Basics"
+  },
+  {
+    "objectID": "Teaching.html#other-teaching-materials-politics-of-china",
+    "href": "Teaching.html#other-teaching-materials-politics-of-china",
+    "title": "Teaching",
+    "section": "Other Teaching Materials: Politics of China",
+    "text": "Other Teaching Materials: Politics of China"
   }
 ]

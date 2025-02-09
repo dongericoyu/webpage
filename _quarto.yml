@@ -3,24 +3,24 @@ project:
   output-dir: docs #this will determine where your rendered pages (in this example, Project1 and 2) are stored. 
   
 website:
-  title: "DACSS-604_Fall24:Demo"
+  title: "Erico Yu's Home Page"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
+      - Teaching.qmd
     tools:
-     # - icon: twitter
-     #    href: https://twitter.com/
       - icon: github
-        href: https://github.com/dongericoyu/webpage-demo
+        href: https://github.com/dongericoyu
+      - icon: twitter
+        href: https://x.com/DY_erico
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2024, Erico Yu"
+    left: "&copy; Copyright 2025, Erico Yu. All rights reserved."
 
 format:
   html:
-    theme: cerulean
+    theme: journal
     toc: true
 
 editor: source
