@@ -150,8 +150,6 @@ getwd()
 
 ```
 
-**If see a warning message, please refer to [this answer on Piazza](https://piazza.com/class/llz8y8zf8f16be/post/15_f3) to see the solution.**
-
 ### Packages; Installing & Loading Packages
 
 Packages in R Programming language are a set of R functions, compiled code, and sample data. These are stored under a directory called “library” within the R environment. By default, R installs a group of packages during installation. Once we start the R console, only the default packages are available by default. Other packages that are already installed need to be loaded explicitly to be utilized by the R program that’s getting to use them.
