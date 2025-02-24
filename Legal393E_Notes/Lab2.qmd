@@ -90,13 +90,13 @@ If the data file is a spreadsheet, open it in Excel to preview its structure bec
 
 Now I am opening the data file for electricity (file name: API_EG.ELC.ACCS.ZS_DS2_en_csv_v2_76137.csv). Wow, the data looks very different from the one we loaded in tutorial#2: there are headers, titles, notes, and some columns/variables that are not in the tutorial (Indicator Name, Indicator Code). It also includes columns from 1960 to 2023.
 
-![](images/clipboard-1725110905.png)
+![](images/clipboard-3712000153.png)
 
 But I want to read just the data of [the percentage of the population with access to electricity from every country between 1990 and 2016.]{.underline} How can we make it look like the data we load in tutorial#2? Here, we need to do some data transformation and tidying, including using some of the functions included in tutorial#2. You can also refer to the [textbook](https://r4ds.had.co.nz/transform.html) I suggested.
 
 ```{r}
 library(readr)
-electric <- read_csv("data/API_EG.ELC.ACCS.ZS_DS2_en_csv_v2_76137.csv", 
+electric <- read_csv("Legal393E_Notes/data/API_EG.ELC.ACCS.ZS_DS2_en_csv_v2_76137.csv", 
     skip = 3)
 
 head(electric) #preview the dataset and the types of each column
@@ -253,32 +253,27 @@ Once the project is created, you’ll see a `.Rproj` file inside the project fol
 
 -   **Regularly document your work** using a `README.md` file or R Markdown.
 
-### Data Structure and Object Types:  [Reading](https://r4ds.had.co.nz/vectors.html)
+### Data Structure and Object Types: [Reading](https://r4ds.had.co.nz/vectors.html)
 
 **#Object Types** **1. Please create the four different types of atomic vectors. Make sure they at least have four elements (length = 4). You can double-check their types by function typeof()**
 
-```{r} logical <- c(TRUE, FALSE, FALSE)  integer<-c(3, 10)  double <- c(1.5, 2.8, pi)  character <- c("this", "is", "a character", "vector")}
-```
+`{r} logical <- c(TRUE, FALSE, FALSE)  integer<-c(3, 10)  double <- c(1.5, 2.8, pi)  character <- c("this", "is", "a character", "vector")}`
 
 Hmm, you may find the R classified the "integer vector" you created as "double". This is because a number by default is considered double in R. So can we make this vector as integer? Two options:(1)adding "L" after each number you enter; and (2)coersion.
 
-```{r} #option 1: new_integer<-c(3L, 10L) typeof(new_integer)  #option 2: coercion_integer<-as.integer(integer) typeof(coercion_integer)}
-```
+`{r} #option 1: new_integer<-c(3L, 10L) typeof(new_integer)  #option 2: coercion_integer<-as.integer(integer) typeof(coercion_integer)}`
 
 2.  **Now, try to extract the following things from each of the above vectors: (1) the first element; (2)the second to third element; (3) the last element**
 
-```{r} #the first element double[1]  #the second to third element double[2:3]  #the last element tail(double, 1)}
-```
+`{r} #the first element double[1]  #the second to third element double[2:3]  #the last element tail(double, 1)}`
 
 3.  **Let's create a list combing the above four atomic vectors.**
 
-```{r} my_list<-list(integer, double, character, logical) my_list}
-```
+`{r} my_list<-list(integer, double, character, logical) my_list}`
 
 4.  **Next, create a simple n by n tibble of your own. You can use the previous vectors you created above.**
 
-```{r} my_tibble<-tibble(logical, double) my_tibble}
-```
+`{r} my_tibble<-tibble(logical, double) my_tibble}`
 
 And this is the very first dataframe we create!
 
@@ -288,22 +283,18 @@ And this is the very first dataframe we create!
 
 1.  **First, browse the list of the built-int dataset by this function: data()**
 
-```{r} data()}
-```
+`{r} data()}`
 
 2.  **Now, load the dataset "mpg": data(dataset_name);**
 
-```{r} data(mpg)}
-```
+`{r} data(mpg)}`
 
 3.  **A very useful function to open a window to take a look at the dataset is View().**
 
-```{r} #View(mpg)}
-```
+`{r} #View(mpg)}`
 
 4.  **Let's just browse the first a few entries of the dataset. Remember what function we can use?**
 
-```{r} head(mpg)}
-```
+`{r} head(mpg)}`
 
 5.  **By looking at the data and the headers, can you tell what this dataset is about? What is the basic data structure (numbers of row and columns)? What do each row and column mean?**
