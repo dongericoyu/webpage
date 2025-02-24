@@ -42,6 +42,16 @@ library(readr) #also for spreadsheets
 library(haven) #for SPSS, STATA, and SAS
 ```
 
+Note: if I know what packages I want to load for a particular project, I can load them all at once:
+
+```{r}
+needed.packages<-c('readxl','readr','haven',"dplyr") #define a vector of the names of needed pcakges, and assign it a name of "needed.package" 
+
+lapply(needed.packages, require, character.only = TRUE) #lapply() function allows us to apply and execute every included elements in an object.
+
+
+```
+
 For .txt files, we have multiple function options to use. For example:
 
 `read.table()` General function for reading tabular data from a text file.
@@ -95,16 +105,18 @@ Now I am opening the data file for electricity (file name: API_EG.ELC.ACCS.ZS_DS
 But I want to read just the data of [the percentage of the population with access to electricity from every country between 1990 and 2016.]{.underline} How can we make it look like the data we load in tutorial#2? Here, we need to do some data transformation and tidying, including using some of the functions included in tutorial#2. You can also refer to the [textbook](https://r4ds.had.co.nz/transform.html) I suggested.
 
 ```{r}
+#If you store your data in a cloud drive, R may not be able to read the file (it is not sure whether it stored locally or online)
+
 library(readr)
-electric <- read_csv("Legal393E_Notes/data/API_EG.ELC.ACCS.ZS_DS2_en_csv_v2_76137.csv", 
+electric <- read_csv("C:/Users/donge/OneDrive/Desktop/GitHub/GitHub_ELS/Course_Empirical_Legal_Studies/data/API_EG.ELC.ACCS.ZS_DS2_en_csv_v2_76137.csv", 
     skip = 3)
 
 head(electric) #preview the dataset and the types of each column
 ```
 
 ```{r}
-#using dplyr packages (a tidyverse family package)to help to edit and change dataset.
-library(dplyr)
+#using dplyr packages (a tidyverse family package)to help to edit and change dataset. Since we already load it above, we don't have to load it here.
+#library(dplyr)
 
 electric <- electric %>% 
   select("Country Name", "Country Code", as.character(1990:2016)) # using select() for us to keep only the columns we want.
