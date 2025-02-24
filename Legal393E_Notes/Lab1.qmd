@@ -2,7 +2,7 @@
 title: "Legel 393E Spring 2025: Lab Meeting#1: Tutorial#1 Quiz Solutions & More on R Basics"
 author: "EricoYu"
 description: "R Basics"
-date: "02/07/2024"
+date: "02/08/2024"
 format:
   html:
     df-print: paged
@@ -150,6 +150,8 @@ getwd()
 
 ```
 
+**If see a warning message, please refer to [this answer on Piazza](https://piazza.com/class/llz8y8zf8f16be/post/15_f3) to see the solution.**
+
 ### Packages; Installing & Loading Packages
 
 Packages in R Programming language are a set of R functions, compiled code, and sample data. These are stored under a directory called “library” within the R environment. By default, R installs a group of packages during installation. Once we start the R console, only the default packages are available by default. Other packages that are already installed need to be loaded explicitly to be utilized by the R program that’s getting to use them.
@@ -263,99 +265,5 @@ sort(rating_iphone15, decreasing = T)#and we can make it in a descending order
 unique(rating_iphone15) #unique returns a vector, data frame or array like x but with duplicate elements/rows removed.
 table(rating_iphone15)
 ```
-
-### Data Structure and Object Types: You can read this part after doing Tutorial#2
-
-### [Reading](https://r4ds.had.co.nz/vectors.html)
-
-**#Object Types** **1. Please create the four different types of atomic vectors. Make sure they at least have four elements (length = 4). You can double-check their types by function typeof()**
-
-```{r}
-logical <- c(TRUE, FALSE, FALSE)
-
-integer<-c(3, 10)
-
-double <- c(1.5, 2.8, pi)
-
-character <- c("this", "is", "a character", "vector")
-
-
-```
-
-Hmm, you may find the R classified the "integer vector" you created as "double". This is because a number by default is considered double in R. So can we make this vector as integer? Two options:(1)adding "L" after each number you enter; and (2)coersion.
-
-```{r}
-#option 1:
-new_integer<-c(3L, 10L)
-typeof(new_integer)
-
-#option 2:
-coercion_integer<-as.integer(integer)
-typeof(coercion_integer)
-```
-
-2.  **Now, try to extract the following things from each of the above vectors: (1) the first element; (2)the second to third element; (3) the last element**
-
-```{r}
-#the first element
-double[1]
-
-#the second to third element
-double[2:3]
-
-#the last element
-tail(double, 1)
-```
-
-3.  **Let's create a list combing the above four atomic vectors.**
-
-```{r}
-my_list<-list(integer, double, character, logical)
-my_list
-```
-
-4.  **Next, create a simple n by n tibble of your own. You can use the previous vectors you created above.**
-
-```{r}
-my_tibble<-tibble(logical, double)
-my_tibble
-
-```
-
-And this is the very first dataframe we create!
-
-### RBuilt-in Datasets: You can read this part after doing Tutorial#2
-
-**R has many built-in datasets that you can call to browse and practice with. Let's take a quick look**.
-
-1.  **First, browse the list of the built-int dataset by this function: data()**
-
-```{r}
-data()
-
-```
-
-2.  **Now, load the dataset "mpg": data(dataset_name);**
-
-```{r}
-data(mpg)
-
-```
-
-3.  **A very useful function to open a window to take a look at the dataset is View().**
-
-```{r}
-#View(mpg)
-
-```
-
-4.  **Let's just browse the first a few entries of the dataset. Remember what function we can use?**
-
-```{r}
-head(mpg)
-
-```
-
-5.  **By looking at the data and the headers, can you tell what this dataset is about? What is the basic data structure (numbers of row and columns)? What do each row and column mean?**
 
 ### 
