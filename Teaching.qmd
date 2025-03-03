@@ -11,7 +11,7 @@ From academic research on the impact of landmark court cases to the judge readin
 -   <a href="files/Legal_393E_SP25.pdf" target="_blank">Open Syllabus</a>
 -   Quiz Solutions and Additional Teaching Notes:
     1.  [Tutorial 1: Quiz#1 & R Basics](Legal393E_Notes/Lab1.html)
-    2.  Tutorial 2: Quiz#2, Reading Data & R Project; ([Will be released later; you can send me an email for the answer keys if you have completed Quiz 2.)]{.underline}
+    2.  Tutorial 2: Quiz#2, Reading Data & R Project([Will be released later; you can send me an email for the answer keys if you have completed Quiz 2.]{.underline})
 
 ## DACSS-601: Data Science Fundamentals
 
