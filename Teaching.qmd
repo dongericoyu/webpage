@@ -12,6 +12,7 @@ From academic research on the impact of landmark court cases to the judge readin
 -   Quiz Solutions and Additional Teaching Notes:
     1.  [Tutorial 1: Quiz#1 & R Basics](Legal393E_Notes/Lab1.html)
     2.  [Tutorial 2: Quiz#2, Reading Data & R Project](Legal393E_Notes/Lab2.html)
+    3.  [Tutorials 3 and 4: Quiz#3 and 4; Summary Statistics & User-written Functions in R.](Legal393E_Notes/Lab3.html)
 
 ## DACSS-601: Data Science Fundamentals
 
