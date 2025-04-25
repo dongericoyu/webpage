@@ -120,7 +120,7 @@ For example, let me introduce how to make a stacked-to-100% barplot. Note the ar
 
 
 #Plotting class and vote choice of ANES data
-ggplot(filter(anes, !is.na(Class)), aes(fill=Class,x = Vote_16)) + 
+ggplot(filter(anes, !is.na(Class)), aes(fill=Class,x = Vote_16))+
   #!is.na() remove N/A or missing data in a variable;
   #make sure "+" is following the ggplot() and the layer function!
   #The fill color of the bars will be determined by the Class variable.
@@ -211,7 +211,7 @@ However, if we want to do a smooth curve, or a best-fitting line, for scatterplo
 ```{r}
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point() +
-  #geom_smooth(method = "lm", se = TRUE, color = "blue") + # fits a linear model (straight line), or 
+  geom_smooth(method = "lm", se = TRUE, color = "blue") + # fits a linear model (straight line), or 
   #geom_smooth() + # Without assuming linearity; LOESS fits local curve; nonlinear and flexible;
   labs(title = "Fuel Efficiency vs. Car Weight",
        x = "Weight (1000 lbs)",
@@ -311,19 +311,19 @@ In this above example:
 
 -   Inside the parentheses `(...)` are the **arguments** (inputs) that the function will take.
 
-    -    `argument1` and `argument2` are examples of named inputs.
+    -   `argument1` and `argument2` are examples of named inputs.
 
-    -    `...` is optional and means “allow extra arguments.” You don’t always need it, but it's useful if your function might take flexible inputs (like `plot()` or `mean(..., na.rm = TRUE)`).
+    -   `...` is optional and means “allow extra arguments.” You don’t always need it, but it's useful if your function might take flexible inputs (like `plot()` or `mean(..., na.rm = TRUE)`).
 
 Next:
 
-`result <- do_something_with(``argument1``,``argument2``)`
+``` result <- do_something_with(``argument1``,``argument2``) ```
 
 -   Inside the function, you usually want to **process the inputs** somehow.
 
 <!-- -->
 
--    This line creates a new variable `result` by calling a fake function called `do_something_with()` on `argument1` and `argument2`.
+-   This line creates a new variable `result` by calling a fake function called `do_something_with()` on `argument1` and `argument2`.
 
 -   In real life, you'd replace this with something with the existing built-in functions like `result <- argument1 + argument2` or `mean(c(argument1, argument2))`.
 
@@ -331,7 +331,7 @@ Finally:
 
 `return(result)`
 
--    tells R what value to give back when the function is used. This is **optional** in R: if you omit it, R will return the last evaluated line — but using `return()` makes your code clearer, especially for beginners.
+-   tells R what value to give back when the function is used. This is **optional** in R: if you omit it, R will return the last evaluated line — but using `return()` makes your code clearer, especially for beginners.
 
 So here is an example of customize function to get mode from a string of values:
 
