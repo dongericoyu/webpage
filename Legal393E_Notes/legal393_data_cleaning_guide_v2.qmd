@@ -20,6 +20,14 @@ needed.packages<-c('readxl','readr','haven','dplyr','broom','ggplot2','dotwhiske
 lapply(needed.packages, require, character.only = TRUE)
 ```
 
+assign a name "needed.packages" for it.
+
+needed.packages\<-c('readxl','readr','haven','dplyr','broom','ggplot2','dotwhisker')
+
+#lapply() allows us to loop over and execute every element in the object "needed.packages".
+
+lapply(needed.packages, require, character.only = TRUE)
+
 ## Load the dataset
 
 Before we explore the data, we need to **import** the survey responses (CSV file) into R.\
@@ -406,9 +414,9 @@ For your **group project**, you will work with your own experimental questions. 
 
 Each group should:
 
-1.  **Identify your experimental variables** (IV and DV) from the survey
+1.  **Identify your experimental variables** (the dependent variable questions that measure the attitude and behavior in your experiment) from the survey
 
-2.  Write the code to recode your group's IVs and DVs in a proper form using `mutate()` + `case_when()`.
+2.  Write the code to recode your group's DVs in a proper form using `mutate()` + `case_when()`.
 
     Don't worry about the demographic, socioeconomic and personal-other variables, I will clean them for you.
 

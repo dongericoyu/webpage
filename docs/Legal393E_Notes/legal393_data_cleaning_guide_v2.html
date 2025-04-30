@@ -283,6 +283,10 @@ Attaching package: 'dplyr'</code></pre>
 [1] TRUE</code></pre>
 </div>
 </div>
+<p>assign a name “needed.packages” for it.</p>
+<p>needed.packages&lt;-c(‘readxl’,‘readr’,‘haven’,‘dplyr’,‘broom’,‘ggplot2’,‘dotwhisker’)</p>
+<p>#lapply() allows us to loop over and execute every element in the object “needed.packages”.</p>
+<p>lapply(needed.packages, require, character.only = TRUE)</p>
 <section id="load-the-dataset" class="level2">
 <h2 class="anchored" data-anchor-id="load-the-dataset">Load the dataset</h2>
 <p>Before we explore the data, we need to <strong>import</strong> the survey responses (CSV file) into R.<br>
@@ -846,8 +850,8 @@ Graduate or professional degree      High school diploma or GED
 <p>For your <strong>group project</strong>, you will work with your own experimental questions. This week, we are practicing using <strong>simulated data</strong>. But you can still start writing the codes.</p>
 <p>Each group should:</p>
 <ol type="1">
-<li><p><strong>Identify your experimental variables</strong> (IV and DV) from the survey</p></li>
-<li><p>Write the code to recode your group’s IVs and DVs in a proper form using <code>mutate()</code> + <code>case_when()</code>.</p>
+<li><p><strong>Identify your experimental variables</strong> (the dependent variable questions that measure the attitude and behavior in your experiment) from the survey</p></li>
+<li><p>Write the code to recode your group’s DVs in a proper form using <code>mutate()</code> + <code>case_when()</code>.</p>
 <p>Don’t worry about the demographic, socioeconomic and personal-other variables, I will clean them for you.</p></li>
 <li><p>Apply the same cleaning and checking habits from today:</p></li>
 </ol>
