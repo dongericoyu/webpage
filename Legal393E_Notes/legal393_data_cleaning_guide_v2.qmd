@@ -227,7 +227,7 @@ You may work and compare your logic with other students in your group.
 Before we decide how to handle missing responses like `"Prefer not to disclose"` or `NA`, let’s review **three types of missing data** in statistics:
 
 | Name | Description | Example | Col5 |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | Missing Completely at Random (**MCAR**) | The missingness is unrelated to any values, observed or unobserved. | A random technical glitch skips a question. | Drop rows, or use mean/median/mode imputation. |
 | Missing at Random (**MAR)** | Missingness is related to observed data, but not the value itself. | Older people are more likely to skip income question. | Use imputation based on other variables (e.g., regression, stratified mean using age, edu, employment to predict income). |
 | Missing Not at Random (**MNAR**) | Missingness is related to the missing value itself. | People with criminal records are more likely to choose “Prefer not to disclose.” | Cannot be fixed by simple imputation—requires careful modeling or logic-based assumptions. |

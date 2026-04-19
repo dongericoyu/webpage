@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-eeb6d1c97efeeb0cfaf56837413d2c8e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,7 +113,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#legal-393e-empirical-legal-studies" id="toc-legal-393e-empirical-legal-studies" class="nav-link active" data-scroll-target="#legal-393e-empirical-legal-studies">Legal-393E: Empirical Legal Studies</a></li>
+  <li><a href="#dacss-790d-temporal-dynamics" id="toc-dacss-790d-temporal-dynamics" class="nav-link active" data-scroll-target="#dacss-790d-temporal-dynamics">DACSS-790D: Temporal Dynamics</a></li>
+  <li><a href="#legal-393e-empirical-legal-studies" id="toc-legal-393e-empirical-legal-studies" class="nav-link" data-scroll-target="#legal-393e-empirical-legal-studies">Legal-393E: Empirical Legal Studies</a></li>
   <li><a href="#dacss-601-data-science-fundamentals" id="toc-dacss-601-data-science-fundamentals" class="nav-link" data-scroll-target="#dacss-601-data-science-fundamentals">DACSS-601: Data Science Fundamentals</a></li>
   <li><a href="#dacss-603-introduction-to-quantitative-analysis" id="toc-dacss-603-introduction-to-quantitative-analysis" class="nav-link" data-scroll-target="#dacss-603-introduction-to-quantitative-analysis">DACSS-603: Introduction to Quantitative Analysis</a></li>
   <li><a href="#dacss-604-advanced-data-driven-storytelling" id="toc-dacss-604-advanced-data-driven-storytelling" class="nav-link" data-scroll-target="#dacss-604-advanced-data-driven-storytelling">DACSS-604: Advanced Data-driven Storytelling</a></li>
@@ -144,6 +145,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Below are syllabi and teaching materials for the recent courses I teach at UMass Amherst:</p>
+<section id="dacss-790d-temporal-dynamics" class="level2">
+<h2 class="anchored" data-anchor-id="dacss-790d-temporal-dynamics">DACSS-790D: Temporal Dynamics</h2>
+<p>This course provides an introduction to quantitative methods for analyzing temporal dynamics, including time-series analysis, panel data modeling, and event history analysis. It equips students with the skills to model and interpret data that evolves over time, including techniques for causal inference in temporal settings. This course treats time-series analysis, panel data models, and event history analysis as related but distinct temporal paradigms. Each approach addresses different research questions and data-generating processes, and no single method is assumed to be a prerequisite for others. Students will begin with foundational approaches to time-series analysis, focusing on temporal dependence, dynamic adjustment, and the interpretation of time-indexed data. The course then transitions to panel data models for analyzing repeated observations across units and concludes with event history analysis for modeling the timing of discrete events. Throughout the semester, students will apply these methods to real-world datasets using R, emphasizing practical implementation and interpretation. By the end of the course, students will have a comprehensive toolkit for analyzing temporal data and conducting causal inference across a range of social science disciplines, including political science, public policy, and economics.</p>
+</section>
 <section id="legal-393e-empirical-legal-studies" class="level2">
 <h2 class="anchored" data-anchor-id="legal-393e-empirical-legal-studies">Legal-393E: Empirical Legal Studies</h2>
 <p>From academic research on the impact of landmark court cases to the judge reading a brief loaded with social policy arguments, the study of law frequently involves empirical data. In this course, students will both learn how to digest empirical legal research and be equipped with the skills to conduct their own empirical research. Using readings and accompanying data from a variety of areas of legal studies research, the course covers topics including constructing empirical legal research questions, collecting and generating data appropriate for testing those questions, visualizing data, and conducting descriptive and inferential analyses. Students will leave the course with a firm understanding of the centrality of data in twenty-first-century law.</p>
@@ -275,8 +280,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -387,7 +390,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

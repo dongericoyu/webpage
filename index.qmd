@@ -7,7 +7,7 @@ about:
 ---
 
 ::: {#me}
-Welcome to visit my website. I am a lecturer in [Data Analytics and Computational Social Science Program(DACSS)](https://www.umass.edu/social-sciences/academics/dacss) at the University of Massachusetts Amherst. Trained as a political scientist, my research interests include court and judicial politics, comparative public opinion, and political participation with a specific focus in China and the US. You can find more information in my [CV](files/CV_Yu.pdf) and [Google Scholar](https://scholar.google.com/citations?user=9ODvxwQAAAAJ&hl=en&oi=ao)) for my recent research and teaching.
+Welcome to visit my website. I am a lecturer in [Data Analytics and Computational Social Science Program(DACSS)](https://www.umass.edu/social-sciences/academics/dacss) at the University of Massachusetts Amherst. Trained as a political scientist, my research interests include court and judicial politics, comparative public opinion, and political participation with a specific focus in China and the US. You can find more information in my [CV](files/CV_Arpil2026.pdf) and [Google Scholar](https://scholar.google.com/citations?user=9ODvxwQAAAAJ&hl=en&oi=ao)) for my recent research and teaching.
 
 ## Education
 

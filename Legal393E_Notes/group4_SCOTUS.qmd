@@ -1,0 +1,218 @@
+---
+title: "Legel 393E Spring 2025: Group Project Lab(2)"
+author: "EricoYu"
+description: "Walking through your data and conducting analysis (using Group 4 as an example)"
+date: "05/05/2025"
+format:
+  html:
+    df-print: paged
+    css: "styles.css"
+categories:
+  - lab meeting
+  - Group Project
+---
+
+First, every time we launch RStudio, we need to load the packages. If you return any error, read the ewe must load the packages every time we launch RStudiorror message and see if you have not installed the needed packages. If so, install all the packages, and rerun this chunk of codes again.
+
+```{r}
+#create a vector contains the names of the needed packages, and assign a name "needed.packages" for it.
+needed.packages<-c('readxl','readr','haven','dplyr','broom','ggplot2','dotwhisker') # assign a name "needed.packages" for it.
+
+#lapply() allows us to loop over and execute every element in the object "needed.packages".
+lapply(needed.packages, require, character.only = TRUE)
+```
+
+## Load the dataset
+
+Before we explore the data, we need to **import** the survey responses (CSV file) into R. \
+Make sure the data file ".csv" is in the same folder as this `.qmd` file. And make sure you read the correct data file!
+
+```{r}
+# Read CSV file
+data <- read_csv("SP25_omnibus-Legal353E_May+5,+2025_08.15_latest.csv")
+
+# Preview first few rows
+head(data)
+```
+
+------------------------------------------------------------------------
+
+## Part 1: Understanding the Dataset
+
+Before we clean or analyze any data, we need to understand what the dataset looks like. This step includes:
+
+-   Checking the overall structure of the data.
+
+-   Viewing variable names and sample entries.
+
+-   Ensure values are stored in the expected format (e.g., text, numbers).
+
+```{r}
+glimpse(data)       # View the dataset structure (variables, types, and first few values)
+dim(data)           # View numbers of rows (number of unique respondents) and columns (number of questions)
+names(data)         # Print the names of all variables
+```
+
+------------------------------------------------------------------------
+
+**What to look for:**
+
+-   Are the variables we need stored as characters or numbers?
+
+-   Is the format of each variable suitable for statistical analysis?
+
+## Part 2: Data Cleaning and Recoding
+
+Below, I am using Group 4's data as an example, since they have already done some recoding and summary statistics.
+
+**First step, identify the names of your IV and DVs.** We need to recode the IV and DV questions of your group project. **Make sure you read the results of after running the last coding chunk above. R is very sensitive to the names of the columns/variables; you must enter them correctly.**
+
+**One tip is that when you call a column/variable, after typing "data\$", R will pop up the list of all columns. You can just scroll down the list and find the variable you need.**
+
+The DV questions: G4-Fair, G4-Trust, G4-Decision
+
+First, check the types of the current three variables and see how we should recode.
+
+Make sure we use \`\` to call the column/variable name (because of the hyphen ("-") between G4 and Fair, R has a difficult time to recognize by the column labels.
+
+```{r}
+typeof(data$`G4-Fair`)#notice that I use `` 
+
+```
+
+R recognizes it as character, meaning that we will need to convert/recode the responses from "characters" into numerical values.
+
+```{r}
+#check the current string/characters for recoding
+unique(data$`G4-Fair`)
+```
+
+Next, I use the following codes to recode the responses into numerical values and create a new variable called "G4_Fair_Recode". Note that I use underscore instead hyphen to name the new variable.
+
+```{r}
+#recode based on the Question coding scheme:
+data <- data %>%
+  mutate(G4_Fair_Recode = case_when(
+    `G4-Fair` == "1-Least Fair" ~ 1,
+    `G4-Fair` == "2" ~ 2,
+    `G4-Fair` == "3" ~ 3,
+    `G4-Fair` == "4" ~ 4,
+    `G4-Fair` == "5" ~ 5,
+    `G4-Fair` == "6" ~ 6,
+    `G4-Fair` == "7" ~ 7,
+    `G4-Fair` == "8" ~ 8,
+    `G4-Fair` == "9" ~ 9,
+    `G4-Fair` == "10-Most Fair" ~ 10
+  ))
+
+table(data$`G4-Decision`)
+```
+
+Now check the new variable we recoded:
+
+```{r}
+typeof(data$G4_Fair_Recode)
+```
+
+It shows "double", meaning that R recognizes the values as numerical values.
+
+Next, we do summary statistics.
+
+```{r}
+summary(data$G4_Fair_Recode)
+
+table(data$G4_Fair_Recode)
+```
+
+All set!
+
+## Part 3. Summary statistics and Distribution Plotting and explanation.
+
+Now we can plot the distribution of this variable. Since it is a variable with a 10-point scale, we can treat it as continous/numerical variable instead of an ordinal variable. We can use a barplot or a boxplot to plot its distribution. You can find the codes for plotting distribution graphs in tutorial 3 on Canvas, [**lab 3/Tutorial#3 Quiz Answers**](https://dongericoyu.github.io/webpage/Legal393E_Notes/Lab3.html#question-2.-in-ggplot2-you-can-add-multiple-layers-and-options-to-your-plots.)**,** and on [R Gallery](https://r-graph-gallery.com/):
+
+```{r}
+ggplot(data, aes(x = G4_Fair_Recode)) +
+  geom_bar() +
+  scale_x_continuous(breaks = data$G4_Fair_Recode) +
+  labs(title = "Distribution of Perceived Fairness of Court Decision",
+       x = "Perceived Fairness(1-Least Fair; 10-Most Fair)",
+       y = "Numbers of Responses")
+```
+
+Interpretation: overall, respondents perceive SOTCUS decision are overwhelming Fair.
+
+You can now do the same for G4-Trust and G4-Decision.
+
+Next, we do the same for the IV question: Group4-SCOTUS_DO:
+
+```{r}
+typeof(data$`Group4-SCOTUS_DO`)
+unique(data$`Group4-SCOTUS_DO`)
+table(data$`Group4-SCOTUS_DO`)
+```
+
+Need to recode. We recode and generate a new variable "G4_Court_Conservatism":
+
+```{r}
+#recode based on the Question coding scheme:
+data <- data %>%
+  mutate(G4_Court_Conservatism = case_when(
+    `Group4-SCOTUS_DO` == "G4-8L1C|G4-Fair|G4-Trust|G4-Decision|Q130" ~ 1,
+    `Group4-SCOTUS_DO` == "G4-6L3C|G4-Fair|G4-Trust|G4-Decision|Q130" ~ 2,
+    `Group4-SCOTUS_DO` == "G4-4L4C|G4-Fair|G4-Trust|G4-Decision|Q130" ~ 3,
+    `Group4-SCOTUS_DO` == "G4-3L6C|G4-Fair|G4-Trust|G4-Decision|Q130" ~ 4,
+    `Group4-SCOTUS_DO` == "G4-1L8C|G4-Fair|G4-Trust|G4-Decision|Q130" ~ 5,
+  ))
+```
+
+Double-check the recoded variable: G4_Court_Conservatism
+
+```{r}
+typeof(data$G4_Court_Conservatism)
+unique(data$G4_Court_Conservatism)
+table(data$G4_Court_Conservatism)
+```
+
+All looks good! Now, do the summary statistics again and plot a distribution graph for the IV variable!
+
+```{r}
+
+```
+
+## Part 4. Hypothesis Testing (optional for presentation, required for your final report writing).
+
+Next, we can do a simple analysis of the result!
+
+First, we can apply the cross-tab we learn in the lecture and the tutorial#2.
+
+We first create a 2 by 2 table of IV and DV. In this case: `G4_Court_Conservatism` and `G4_Fair_Recode.`
+
+```{r}
+attach(data)
+table_1 <- table(G4_Court_Conservatism,G4_Fair_Recode)
+table_1
+```
+
+Next, we can do a prop.table() to see the cross tab. You just choose one of the following lines of codes to generate a prop.table, observe and explain it.
+
+```{r}
+prop.table(table_1) # cell percentages
+prop.table(table_1, 1) # row percentages
+prop.table(table_1, 2) # column percentages
+```
+
+Next, we can test the hypothesis. Noted that since this group's IV has five conditions, we will do regression analysis instead of a t-test.
+
+Let's try out the simple regression.
+
+```{r}
+basic_fair<-lm(G4_Fair_Recode ~ G4_Court_Conservatism, data = data)
+
+summary(basic_fair)
+```
+
+The p-value is 0.237 and it is larger than 0.05. We are failed to reject the null hypothesis ("there is no relationship between court ideological composition" and "perceived fairness of decision").
+
+Now, you can try runing regression for your other two DVs. (note: with G4-Decision, you should run a logistic regression).
+
+Erico: you probably would be interested to include people's political ideology and partisanship in the regression model to further analyze the results.
